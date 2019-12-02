@@ -18,12 +18,12 @@ html {
 }
 
 body {
-  display: flex;
+  /* display: flex; */
   margin: 0;
 }
 
 header {
-  position: relative;
+  /* position: relative; */
   display: block;
   top: 0;
   left: 0;
@@ -45,7 +45,8 @@ nav ul {
 }
 
 nav li {
-  text-align: left;
+  display: inline-block;
+  text-align: center;
 }
 
 nav a {
@@ -65,9 +66,9 @@ nav a:hover {
   max-height: 500px;
   overflow: hidden;
   margin: 0;
-  position: absolute;
-  left: 0;
-  top: 4.5em;
+  position: relative;
+  /* left: 0; */
+  /* top: 4.5em; */
 }
 
 .img-flex {
@@ -84,12 +85,77 @@ footer nav li {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
   padding: 0;
   background-color: #ccc;
   text-align: center;
+}
+
+.cards {
+  /* position: relative; */
+  /* top: 27%; */
+  /* left: 0; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 1.5em;
+}
+
+/* .img {
+  display: block;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto 1.5rem;
+} */
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.5rem;
+}
+
+.white .milk .dark {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex-grow: 1;
+  width: 25%;
+  padding: .75em;
+  background-color: #ccc;
+  border-left: 1px solid #333;
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: .875em;
+  align-self: flex-end;
+}
+
+.link {
+  align-self: flex-end;
+}
+
+.btn {
+  display: flex;
+  margin: 0;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-radius: 8px;
 }
 
 /* above is 240px extra small */
@@ -98,12 +164,6 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  nav li {
-    display: inline-block;
-    text-align: center;
-  }
-
-}
 
 /* 608px-960px medium */
 
