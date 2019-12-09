@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #F3BD5B;
+  background-color: #f3bd5b;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
   left: 0;
   width: 100%;
   padding: .5rem 0;
-  background-color: #D27A23;
+  background-color: #d27a23;
   text-align: center;
   border: 2px solid #000;
 }
@@ -87,17 +87,16 @@ footer {
   position: fixed;
   bottom: 0;
   padding-bottom: .5em;
-  background-color: #D27A23;
+  background-color: #d27a23;
   text-align: center;
   border: 2px solid #000;
-
 }
 
 .cards {
   display: flex;
   flex-direction: row;
   padding: 1.5em;
-  background-color: #F3BD5B;
+  background-color: #f3bd5b;
   border: 1rem;
 }
 
@@ -111,16 +110,17 @@ footer {
 
 .milk {
   position: relative;
-
 }
 
 .link {
   position: absolute;
+
   /* padding: 1.65em 0 0 1.3em;
   left: 50%;
   margin-left: -50px;
   top: 50%;
   margin-top: -50px; */
+
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -131,7 +131,6 @@ a {
   text-decoration: none;
   font-size: .875em;
   align-self: center;
-  padding: .4em .75em .3em;
   border-radius: 8px;
   padding: .4em .75em .3em;
 }
@@ -152,7 +151,7 @@ a {
 }
 
 .btn:hover {
-  background-color: #D27A23;
+  background-color: #d27a23;
   font-weight: bold;
   border-radius: 8px;
 }
@@ -162,7 +161,7 @@ a {
 }
 
 /* .top a {
-  border: 1px solid #8F4215;
+  border: 1px solid #8f4215;
   text-align: center;
 } */
 
@@ -171,7 +170,6 @@ a {
 /* 400px-608px small */
 
 @media only screen and (min-width: 25em) {
-
   /* .img-content h2 {
     display: block;
     position: absolute;
@@ -244,7 +242,7 @@ a {
   }
 
   .top a {
-    border: 1px solid #8F4215;
+    border: 1px solid #8f4215;
     text-align: center;
   }
 
