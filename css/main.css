@@ -256,11 +256,10 @@ a {
   .img-content h2 {
     display: inline;
     flex-wrap: nowrap;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #fff;
     text-align: left;
-    padding: 0;
     background-color: rgba(0, 0, 0, .5);
     line-height: 1.4;
     transform: translate(-50%, -50%);
@@ -279,6 +278,30 @@ a {
     width: 100%;
   }
 
+  .cards {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .white {
+    display: block;
+    max-width: 33%;
+  }
+
+  .milk {
+    display: block;
+    max-width: 33%;
+  }
+
+  .dark {
+    display: block;
+    flex-flow: row;
+    max-width: 33%;
+  }
+
+  .btn {
+    display: block;
+  }
 }
 
 /* 1440px + extra large */
