@@ -29,8 +29,9 @@ header {
   left: 0;
   width: 100%;
   padding: .5rem 0;
-  background-color: #ccc;
+  background-color: #D27A23;
   text-align: center;
+  border: 2px solid #000;
 }
 
 h1 {
@@ -86,8 +87,9 @@ footer {
   position: fixed;
   bottom: 0;
   padding-bottom: .5em;
-  background-color: #ccc;
+  background-color: #D27A23;
   text-align: center;
+  border: 2px solid #000;
 
 }
 
@@ -130,6 +132,8 @@ a {
   font-size: .875em;
   align-self: center;
   padding: .4em .75em .3em;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
 }
 
 .btn {
@@ -156,6 +160,11 @@ a {
 .cards p {
   display: none;
 }
+
+/* .top a {
+  border: 1px solid #8F4215;
+  text-align: center;
+} */
 
 /* above is 240px extra small */
 
@@ -187,8 +196,13 @@ a {
   }
 
   h2 {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .75);
     color: #fff;
+    border-radius: 8px 50px;
+    border-color: #000;
+    border-width: medium;
+    border-style: outset;
+    padding: .4em .75em .3em;
   }
 
   .img-content {
@@ -229,6 +243,11 @@ a {
     text-align: left;
   }
 
+  .top a {
+    border: 1px solid #8F4215;
+    text-align: center;
+  }
+
   .img-content {
     display: block;
     position: absolute;
@@ -256,6 +275,10 @@ a {
     padding: 0;
     font-size: .5rem;
     font-style: italic;
+  }
+
+  .link {
+    width: 100%;
   }
 
 }
