@@ -31,7 +31,7 @@ header {
   padding: .5rem 0;
   background-color: #d27a23;
   text-align: center;
-  border: 2px solid #000;
+  border: 2px solid #8f4215;
 }
 
 h1 {
@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: #8f4215;
   color: #fff;
 }
 
@@ -84,7 +84,7 @@ footer nav li {
 
 footer {
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   padding-bottom: .5em;
   background-color: #d27a23;
@@ -160,6 +160,11 @@ a {
   display: none;
 }
 
+.social img {
+  display: inline-block;
+  width: 50px;
+}
+
 /* .top a {
   border: 1px solid #8f4215;
   text-align: center;
@@ -194,7 +199,7 @@ a {
   }
 
   h2 {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(35, 5, 5, .5);
     color: #fff;
     border-radius: 8px 50px;
     border-color: #000;
@@ -235,7 +240,7 @@ a {
     max-width: 8em;
   }
 
-  .top li {
+   .top li {
     flex-direction: column;
     display: block;
     text-align: left;
@@ -274,16 +279,12 @@ a {
     font-style: italic;
   }
 
-  .link {
-    width: 100%;
-  }
-
   .cards {
     display: flex;
     flex-flow: column;
   }
 
-  .white {
+  /* .white {
     display: block;
     max-width: 33%;
   }
@@ -297,11 +298,41 @@ a {
     display: block;
     flex-flow: row;
     max-width: 33%;
+  } */
+
+  .cards img {
+    display: inline-block;
+    width: 250px;
   }
 
-  .btn {
-    display: block;
+  .cards {
+    position: relative;
   }
+
+  .cards p {
+    position: absolute;
+    text-align: left;
+  }
+
+  .cards a {
+    bottom: 0;
+  }
+
+  .pwhite {
+    bottom: 50%;
+    right: 35%;
+  }
+
+  .pmilk {
+    bottom: 0;
+    right: 35%;
+  }
+
+  .pdark {
+    bottom: 70%;
+    right: 35%;
+  }
+
 }
 
 /* 1440px + extra large */
