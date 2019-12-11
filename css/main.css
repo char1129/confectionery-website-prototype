@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 footer nav li {
-  padding-top: .25em;
+  padding: .25em 0;
 }
 
 footer {
