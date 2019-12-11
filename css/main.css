@@ -207,6 +207,18 @@ a {
     display: inline-block;
   }
 
+  .link {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+  }
+
+  .btn {
+    padding: .5em 4rem;
+    border: 1px solid;
+  }
+
 }
 
 /* 960px-1440px large */
