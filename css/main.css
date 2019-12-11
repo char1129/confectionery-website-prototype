@@ -84,7 +84,6 @@ footer nav li {
 
 footer {
   width: 100%;
-  /* position: fixed; */
   bottom: 0;
   padding-bottom: .5em;
   background-color: #d27a23;
@@ -114,13 +113,6 @@ footer {
 
 .link {
   position: absolute;
-
-  /* padding: 1.65em 0 0 1.3em;
-  left: 50%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -50px; */
-
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -165,16 +157,12 @@ a {
   width: 50px;
 }
 
-/* .top a {
-  border: 1px solid #8f4215;
-  text-align: center;
-} */
-
-/* above is 240px extra small */
-
-/* 400px-608px small */
+.banner1 {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
+
   /* .img-content h2 {
     display: block;
     position: absolute;
@@ -251,86 +239,110 @@ a {
     text-align: center;
   }
 
-  .img-content {
-    display: block;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 40%;
-  }
-
-  .img-content h2 {
+  .banner1 h3 {
     display: inline;
     flex-wrap: nowrap;
-    font-size: 2rem;
-    font-weight: bold;
+    background-color: rgba(35, 5, 5, .5);
     color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, .5);
-    line-height: 1.4;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    border-radius: 8px 50px;
+    border-color: #000;
+    border-width: medium;
+    border-style: outset;
+    padding: .4em .75em .3em;
   }
 
-  .img-content p {
+  .banner1 p {
     margin: 0 0 .5rem;
     padding: 0;
     font-size: .5rem;
     font-style: italic;
   }
 
+  .one {
+    display: none;
+  }
+
+  .two {
+    display: none;
+  }
+
+  .three {
+    display: none;
+  }
+
   .cards {
-    display: flex;
     flex-flow: column;
   }
 
-  /* .white {
+  .banner1 {
     display: block;
-    max-width: 33%;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: 1rem;
   }
 
-  .milk {
+  .img-flex2 {
+    width: 100%;
     display: block;
-    max-width: 33%;
-  }
-
-  .dark {
-    display: block;
-    flex-flow: row;
-    max-width: 33%;
-  } */
-
-  .cards img {
-    display: inline-block;
-    width: 250px;
-  }
-
-  .cards {
     position: relative;
   }
 
-  .cards p {
+  .content {
     position: absolute;
-    text-align: left;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transform:translate(20%,-50%);
+    top: 50%;
+    text-align: center;
   }
 
-  .cards a {
-    bottom: 0;
+  .text {
+    width: 60%;
   }
 
-  .pwhite {
-    bottom: 50%;
-    right: 35%;
+  .text h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0 1rem 0 0;
+    line-height: 1.2;
   }
 
-  .pmilk {
-    bottom: 0;
-    right: 35%;
+  .text p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 1rem;;
   }
 
-  .pdark {
-    bottom: 70%;
-    right: 35%;
+  .btn {
+    display: inline-block;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50px 8px;
+    border-color: #000;
+    border-width: medium;
+    border-style: outset;
+    padding: .4em .75em .3em;
+  }
+
+  .btn:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px 8px;
+    border-color: #000;
+    border-width: medium;
+    border-style: outset;
+    padding: .4em .75em .3em;
+  }
+
+  .btn-big {
+    font-size: 1rem;
   }
 
 }
