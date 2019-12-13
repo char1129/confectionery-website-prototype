@@ -165,7 +165,7 @@ a {
   display: none;
 }
 
-.mid{
+.mid {
   display: block;
   text-decoration: none;
   background-color: #aaa;
@@ -175,7 +175,6 @@ a {
   padding: 1.25rem 1rem;
   align-items: center;
   text-align: center;
-
 }
 
 .mid a {
@@ -186,7 +185,6 @@ a {
   background-color: #aba;
   border-color: #785439;
 }
-
 
 @media only screen and (min-width: 25em) {
   /* .img-content h2 {
@@ -223,6 +221,7 @@ a {
   .cards .three {
     display: none;
   }
+
   .cards .mid {
     display: flex;
   }
