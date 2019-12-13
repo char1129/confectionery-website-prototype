@@ -161,6 +161,33 @@ a {
   display: none;
 }
 
+.cards .mid {
+  display: none;
+}
+
+.mid{
+  display: block;
+  text-decoration: none;
+  background-color: #aaa;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  margin: .5rem;
+  padding: 1.25rem 1rem;
+  align-items: center;
+  text-align: center;
+
+}
+
+.mid a {
+  color: #fff;
+}
+
+.mid:hover {
+  background-color: #aba;
+  border-color: #785439;
+}
+
+
 @media only screen and (min-width: 25em) {
   /* .img-content h2 {
     display: block;
@@ -183,6 +210,21 @@ a {
 
   h1 {
     display: none;
+  }
+
+  .cards .one {
+    display: none;
+  }
+
+  .cards .two {
+    display: none;
+  }
+
+  .cards .three {
+    display: none;
+  }
+  .cards .mid {
+    display: flex;
   }
 
   h2 {
@@ -228,6 +270,10 @@ a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .cards .mid {
+    display: none;
   }
 
   header {
